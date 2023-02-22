@@ -4,7 +4,7 @@ services:
 
   nginx:
     image: lscr.io/linuxserver/nginx:latest
-    container_name: Dashboard
+    container_name: dasherr
     environment:
       - PUID=1000
       - PGID=1000
